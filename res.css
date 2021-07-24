@@ -1,0 +1,44 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+}
+li a button {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+  font: size 16px;
+  color: white;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+.logo {
+  cursor: pointer;
+}
+.navlist li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.navlists li a {
+  transition: all 0.3s ease 0s;
+}
+.navlists li a:hover {
+  color: lightskyblue;
+}
+button {
+  padding: 9px 25px;
+  background-color: rgba(red, green, blue, alpha);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3 ease 0s;
+}
+button:hover {
+  background-color: rgb(43, 187, 192);
+}

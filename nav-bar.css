@@ -1,0 +1,41 @@
+* {
+  font-family: arial, sans-serif;
+}
+
+/**********************navlist***************************/
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-list-item {
+  display: inline;
+  padding: 5px;
+}
+
+.nav-list-item > a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-list-item > a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+/****************************************************/
+.admin {
+  padding-left: 400px;
+}
+.sea {
+  width: 430px;
+}
+.google {
+  justify-content: center;
+}

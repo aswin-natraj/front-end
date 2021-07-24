@@ -1,0 +1,61 @@
+img {
+  width: 80px;
+  height: auto;
+}
+.lists {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+  color: black;
+  margin: 15px;
+}
+.lists {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+.lists li a {
+  padding: 8px 20px;
+  border: 3px solid transparent;
+  border-radius: 50px;
+  transition: 0.9s;
+}
+li a:hover {
+  background-color: black;
+  color: white;
+}
+.title {
+  text-align: center;
+  padding-top: 200px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+}
+.but {
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+  border: 3px solid gray;
+  padding: 5px 30px;
+  border-radius: 50px;
+  transition: 0.9s;
+}
+.but:hover {
+  background-color: black;
+  color: white;
+}
+body {
+  background-image: url(https://images.unsplash.com/photo-1543252358-f20f9c57bafe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MjF8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=900&q=60);
+  background-size: cover;
+}
+.pic2 {
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/483/576/977/abstract-hexagon-simple-minimalism-wallpaper-preview.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  clip-path: polygon(100% 0, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+  padding-left: 6%;
+}

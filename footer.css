@@ -1,0 +1,33 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-list {
+  list-style: none;
+}
+
+.footer-list-item {
+  display: inline;
+}
+
+.footer-list-item > a {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+}
+
+.footer-list-item > a:hover {
+  text-decoration: underline;
+  color: black;
+}
+.footer-list-item {
+  background-color: antiquewhite;
+}
+.footer {
+  padding-top: 290px;
+}
+.footer-list {
+  background-color: antiquewhite;
+}

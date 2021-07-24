@@ -1,0 +1,22 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/***********************header*******************/
+header {
+  background-image: url(https://traversymedia.com/downloads/assets/beachshowcase.jpg);
+}
+.container {
+  flex-wrap: wrap;
+}
+.list1 a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  font-size: 39px;
+}
+.list1 a:hover {
+  color: gray;
+}
+.wrd1 {
+  text-align: end;
+}

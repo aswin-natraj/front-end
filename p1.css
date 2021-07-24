@@ -1,0 +1,59 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.container {
+  display: flex;
+  background-color: white;
+}
+img {
+  background-color: white;
+  width: 50px;
+}
+.list {
+  display: flex;
+  background-color: white;
+  padding-left: 20%;
+}
+.list2 a {
+  text-decoration: none;
+  padding: 30px;
+  color: black;
+  margin: 40px;
+  transition: 0.9s ease;
+}
+.list2 a:hover {
+  text-decoration: underline;
+}
+.list2 {
+  list-style-type: none;
+}
+.sig {
+  text-decoration: none;
+  color: black;
+}
+.account img {
+  padding-left: 300px;
+  width: 50px;
+}
+.container1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20%;
+  background-color: gray;
+}
+.sec1 {
+  background-color: khaki;
+}
+.sec2 {
+  background-color: lightcoral;
+}
+.sec3 {
+  background-color: lightcyan;
+}
+.container {
+  background-color: hsla(green, gray, alpha);
+}
+.container {
+  flex-wrap: wrap;
+}
